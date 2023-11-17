@@ -46,7 +46,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.apache.flink.connector.jdbc.JdbcTestFixture.*;
+import static org.apache.flink.connector.jdbc.JdbcTestFixture.INSERT_TEMPLATE;
+import static org.apache.flink.connector.jdbc.JdbcTestFixture.OUTPUT_TABLE;
+import static org.apache.flink.connector.jdbc.JdbcTestFixture.OUTPUT_TABLE_4;
+import static org.apache.flink.connector.jdbc.JdbcTestFixture.TEST_DATA;
+import static org.apache.flink.connector.jdbc.JdbcTestFixture.TestEntry;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.doReturn;
 
